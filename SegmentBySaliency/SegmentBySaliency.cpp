@@ -191,6 +191,7 @@ int segment(string originPic, string saliencyPic, string saliencyValue, string f
 		//imwrite("origin.jpg", tmpMat);
 		//cout << "copy finished!" << endl;
 		int nRows = saliencyPicMat.rows;
+
 		int nCols = saliencyPicMat.cols;
 		int nColsOrigin = tmpMat.cols;
 		/*if (saliencyPicMat.isContinuous())
